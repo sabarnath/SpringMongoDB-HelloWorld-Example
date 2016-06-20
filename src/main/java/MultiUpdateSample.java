@@ -10,7 +10,7 @@ import com.mongodb.WriteConcern;
 import com.mongodb.gridfs.GridFS;
 import com.mongodb.gridfs.GridFSInputFile;
  
-public class GRIDFSSample {
+public class MultiUpdateSample {
  
  
 	public static void main(String[] args) throws IOException {
