@@ -11,7 +11,7 @@ public class EntityUser {
 
 	private EmployeeVO employee;
 	
-	private User user;
+	private String userId;
 
     public String getId() {
         return id;
@@ -29,14 +29,15 @@ public class EntityUser {
         this.employee = employee;
     }
 
-    public User getUser() {
-        return user;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
-	
+
+   
 
 	
 
